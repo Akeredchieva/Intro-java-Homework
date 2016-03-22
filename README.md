@@ -3,9 +3,6 @@ package com.company;
 
 import java.util.Scanner;
 
-/**
- * Created by Annie on 20.3.2016 г..
- */
 public class FirstOddOrEvenElement {
 
     static String firstNumberOddOrEven(String[] numbersElement, String insertOddOrEven) {
@@ -16,7 +13,6 @@ public class FirstOddOrEvenElement {
             String s = numbersElement[i];
             stringElement = Integer.parseInt(s);
             if ((insertOddOrEven.equals("Odd")) && ((stringElement % 2) != 0)) {
-
                 oddOrEvenEl += stringElement;
             } else if ((insertOddOrEven.equals("Even")) && ((stringElement % 2) == 0)) {
                 oddOrEvenEl += stringElement;
@@ -26,7 +22,6 @@ public class FirstOddOrEvenElement {
 
         return oddOrEvenEl;
     }
-
     public static void main(String[] args) {
         Scanner sr = new Scanner(System.in);
         String[] numbersElement = sr.nextLine().split(" ");

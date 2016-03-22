@@ -1,4 +1,4 @@
-# Intro-java-Homework
+# Java-Syntax
 package com.company;
 
 import java.util.Scanner;
